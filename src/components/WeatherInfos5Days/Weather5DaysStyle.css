@@ -1,0 +1,46 @@
+.weather-container {
+  padding: 2rem;
+  margin: 2.4rem 0;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.weather-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+.weather-item {
+  text-align: center;
+  background-color: #b9deff;
+  padding: 1.6rem;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  position: relative;
+}
+
+.weather-item::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-image: linear-gradient(to right, #479be5 0%, #3f8acb 100%);
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.weekDays {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
