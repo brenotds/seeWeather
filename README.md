@@ -1,0 +1,1 @@
+See Weather is a sleek and user-friendly web application built with React js that allows users to check current weather conditions and forecasts for any location worldwide. By leveraging powerful weather API, See Weather provides accurate and up-to-date information
